@@ -1,0 +1,330 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(238, 237, 237);
+    overflow-x: hidden  ;
+}
+
+.container{
+     display: flex;
+     background-color: rgb(238, 237, 237);
+    max-width: 1289px;
+    height: 283%;
+    margin-top: 19px;
+    
+}
+
+.navbar>ul{
+    display: flex;
+    gap: 40px;
+    justify-self: flex-end;
+    margin: 5px 12px;
+}
+
+li{
+    list-style: none;
+    border: 1px solid black;
+    padding:8px 8px;  
+    cursor: pointer; 
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3); 
+    
+}
+
+li:hover{
+    background-color: rgb(238, 237, 237);     
+}
+
+.column1{
+   max-width: 250px;
+   width: 100%;
+   
+   min-height: 283%;
+   display: flex;
+   flex-direction: column;
+
+  
+}
+
+
+.top-image{
+    max-width: 174px;
+    position: relative;
+    top: 1px;
+    left: 34px;
+}
+
+
+.top-image>img{
+    position: absolute;
+    width: 100%;
+    border-radius: 50%;    
+}
+
+.table-card{
+    max-width: 235px;
+    background-color: rgb(238, 237, 237);
+    border: 2px solid black; 
+    padding: 0px 5px;  
+    margin-top: 190px; 
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.5); 
+    
+
+}
+
+table th td{
+    border-collapse: collapse;
+    
+}
+
+.box{
+    border: 1px solid black;    
+    text-align: center;
+}
+
+.table-contents{  
+    line-height: 25px;    
+}
+
+.col1-student-card2{
+    max-width: 235px;
+    background-color: rgb(238, 237, 237);
+    border: 2px solid black;  
+    margin-top: 10px;
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.5); 
+}
+
+.card2-container>img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 10px 69px;
+}
+
+.card2-contents>h4{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.card2-contents>p{
+    text-align: justify;
+}
+
+.col1-input{
+    padding: 3px 0px;
+    margin:  7px;
+   
+}
+
+.col1-card3{
+    max-width: 235px;
+    display: flex;
+   background-color: rgb(238, 237, 237);
+    border: 2px solid black;
+    margin-top: 10px;
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.5); 
+}
+
+.col1-card3-image>img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.col1-card3-contents>h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.column-2{
+max-width: 750px;
+width: 100%;
+background-color: rgb(238, 237, 237);
+height: 283%;
+
+}
+
+.col2-card1{
+    
+    max-width: 389px;
+    width: 100%;
+   background-color: rgb(238, 237, 237);
+    margin: 0px 10px;
+    
+}
+
+.col2-card1>h1{
+    margin: 0px 12px;
+}
+
+.bubble-content{
+    display: flex;
+    
+}
+
+.bubble-card>h4{
+    border: 1px solid black;
+    padding: 8px ;
+    width: 170px;
+    margin: 20px 10px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.col2-card1>h2{
+    margin: 0px 8px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 370px;
+    
+}
+
+.column2-card2{
+    display: flex;
+   
+
+}
+
+.col2-language-cards{
+   background-color: rgb(238, 237, 237);
+    width: 42%;
+    border: 2px solid black;
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.5); 
+}
+
+.bul-lang{
+    border: 1px solid black;
+    width: 100px;
+    padding: 5px;
+    display: inline-block;
+    margin: 12px 18px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.bul-lang2{
+    border: 1px solid black;
+    width: 150px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.multiple-cards{
+    display: flex;
+    flex-wrap: wrap ;
+   
+}
+.single-card{
+    display: flex;
+    width: 338px;  
+    margin: 10px 12px;  
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+}
+
+.single-card-img>img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 7px;
+    
+}
+
+.single-card-contents{
+    margin: 12px 12px;
+}
+
+.single-card-contents>h3{
+    margin-bottom: 8px;
+}
+
+.single-card-contents>p{    
+    line-height: 20px;
+}
+
+.column-2-margin{
+    margin: 0px 12px;
+    flex-wrap: wrap;
+}
+
+.student-details-card{
+   
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.5); 
+   background-color: rgb(238, 237, 237);
+    width: 262px;
+    border: 2px solid black;
+}
+
+.circle-bubble{
+    display: flex;
+    margin: 0px 12px;
+   
+}
+
+.student-details-card>h2{
+    
+    text-align: center;
+    margin-bottom: 14px;
+    margin: 17px;
+}
+
+.circle{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 12px 12px;
+    width: 35px;
+    text-align: center;
+}
+
+.col-3-data{
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 20px;
+   background-color: rgb(238, 237, 237);
+    width: 262px;
+    text-align: justify;
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.5); 
+}
+
+.col-3-data>h3{
+    margin-bottom: 17px;
+}
+
+.last-card{
+    margin-top: 19px;
+   background-color: rgb(238, 237, 237);
+    width: 262px;
+    border: 2px solid black;
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.5); 
+}
+
+.last-card-img>img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 7px 75px;
+}
+
+.last-card-contents>h3{
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.last-card-contents>p{
+    text-align: center;
+}
